@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+p {
+  text-indent: 2em;
+}
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+.page-title {
+  color: #b7030c;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+/* 清除浮动 */
+.clear-both::after {
+  content: "";
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+.line1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
